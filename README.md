@@ -1,6 +1,6 @@
 # 🏬 Superstore Sales Analysis
 
-> End‑to‑end data analysis and profit prediction using Python, pandas, scikit‑learn, and Streamlit — built collaboratively with AI assistance.
+> End‑to‑end data analysis and profit prediction using Python, pandas, scikit‑learn, and Streamlit.
 
 ---
 
