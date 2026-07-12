@@ -1,11 +1,3 @@
-# 🏬 Superstore Sales Analysis
-
-> End‑to‑end data analysis and profit prediction using Python, pandas, scikit‑learn, and Streamlit.
-
----
-
-This project is based on a known dataset, SuperStoreSales.csv, and I tried to show a full structure for ML engineering projects that must be followed.
-
 # Superstore Sales Analysis — Project Structure
 
 This document explains **how the project is organized and why** — what each folder and file is for, and how data flows from the raw spreadsheet through to the trained model and the dashboard. For setup instructions, see `README.md`.
