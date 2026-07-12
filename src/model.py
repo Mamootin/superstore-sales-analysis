@@ -14,6 +14,7 @@ def train_baseline(X, y):
     print("R2:", r2_score(y_test, preds))
     return model
 
+
 from sklearn.ensemble import RandomForestRegressor
 
 def train_random_forest(X, y):
@@ -26,10 +27,3 @@ def train_random_forest(X, y):
     print("MAE:", mean_absolute_error(y_test, preds))
     print("R2:", r2_score(y_test, preds))
     return model
-
-import pandas as pd
-
-importances = pd.Series(model.feature_importances_, index=X.columns).sort_values(ascending=False)
-print(importances.head(10))
-
-joblib.dump(model, "../app/profit_model.joblib")
